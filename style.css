@@ -1,3 +1,9 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
 :root
 {
   font-family: "Alice", serif;
@@ -27,6 +33,21 @@ img
   border-radius: 16px;
 }
 
+main
+{
+  padding: 24px;
+}
+
+section + section
+{
+  padding-top: 24px;
+}
+
+#about p + p 
+{
+  margin-top: 12px;
+}
+
 h1
 {
   line-height: 140%;
@@ -40,4 +61,11 @@ h2
 
 h1, h2{
  color: #291B1A;
+ padding-bottom: 4px;
 }
+
+ul
+{
+padding-left: 24px;
+}
+
